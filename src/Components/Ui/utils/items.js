@@ -1,0 +1,98 @@
+export const items = [
+  {
+    "id": 1,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product1.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 2,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product2.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 3,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product3.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 4,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product4.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 5,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product5.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 6,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product6.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 7,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product7.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 8,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product8.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 9,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product9.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 10,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product10.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 11,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product11.png",
+    "category": "dry-fruits"
+  },
+  {
+    "id": 12,
+    "title": "Salad Food",
+    "description": "Salad is one of best food in hunza and best sale product",
+    "price": 20.5,
+    "image": "/images/product12.png",
+    "category": "dry-fruits"
+  }
+]
