@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Hunza Dry Fruits",
+        "description": "Best Product For You K2 Dry Food",
+        "image": "/productbg/productbgimage.png",
+        "sideImage": "../../../../public/productbg/product1.png"
+    },
+    {
+        "id": 1,
+        "title": "Hunza Dry Fruits",
+        "description": "Best Product For You K2 Dry Food",
+        "image": "/productbg/productbgimage.png",
+        "sideImage": "./productbg/product2.png"
+    },
+    {
+        "id": 1,
+        "title": "Hunza Dry Fruits",
+        "description": "Best Product For You K2 Dry Food",
+        "image": "/productbg/productbgimage.png",
+        "sideImage": null
+    }
+]
