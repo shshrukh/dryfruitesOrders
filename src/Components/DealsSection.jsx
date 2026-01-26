@@ -10,7 +10,7 @@ const DealsSection = () => {
         {/* Hot Deal */}
         <div className="w-72 min-w-[18rem] bg-[#7a0026] text-white rounded-2xl p-6">
           <h3 className="text-2xl font-semibold mb-4">Hot Deal</h3>
-          <p className="mb-6">Sale Upto 30% Off</p>
+          <p className="mb-6">Sale Upto 30% Offff</p>
 
           <p className="text-sm opacity-80 mb-4">Offer Ends In</p>
 
