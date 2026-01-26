@@ -6,7 +6,7 @@ import DealsSection from "../Components/DealsSection";
 
 
 const Home = () => {
-  const data = dummyJsons;
+  
   return (
     <div>
      <Hero />
