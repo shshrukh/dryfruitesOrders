@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from "../Components/Hero";
-import dummyJsons from '../Components/UI/utils/cardsProducts.json'
-import BestProducts from '../Components/UI/BestProducts';
+import ProductList from "../Components/Products";
+import DealsSection from "../Components/DealsSection";
 
 
 
@@ -10,7 +10,8 @@ const Home = () => {
   return (
     <div>
      <Hero />
-     
+     <ProductList />
+        <DealsSection />
     </div>
   )
 
