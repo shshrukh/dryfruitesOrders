@@ -6,6 +6,7 @@ import DealsSection from "../Components/DealsSection";
 
 
 const Home = () => {
+  const data = dummyJsons;
   return (
     <div>
      <Hero />
@@ -13,6 +14,7 @@ const Home = () => {
         <DealsSection />
     </div>
   )
+
 }
 
 export default Home

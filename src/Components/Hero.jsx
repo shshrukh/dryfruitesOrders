@@ -1,4 +1,4 @@
-import Button from "./Ui/Button";
+import Button from "./UI/Button";
 
 const Hero = () => {
   return (
