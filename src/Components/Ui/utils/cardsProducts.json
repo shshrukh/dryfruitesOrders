@@ -4,20 +4,30 @@
         "title": "Hunza Dry Fruits",
         "description": "Best Product For You K2 Dry Food",
         "image": "/productbg/productbgimage.png",
-        "sideImage": "../../../../public/productbg/product1.png"
+        "sideImage": "/productbg/product1.png",
+        "left": "left-62.5",
+        "top": "top-46",
+        "width": "267px"
+
     },
     {
-        "id": 1,
+        "id": 2,
         "title": "Hunza Dry Fruits",
         "description": "Best Product For You K2 Dry Food",
         "image": "/productbg/productbgimage.png",
-        "sideImage": "./productbg/product2.png"
+        "sideImage": "./productbg/product2.png",
+        "left": "left-62.5",
+        "top": "top-41",
+        "width": "360px"
     },
     {
-        "id": 1,
+        "id": 3,
         "title": "Hunza Dry Fruits",
         "description": "Best Product For You K2 Dry Food",
         "image": "/productbg/productbgimage.png",
-        "sideImage": null
+        "sideImage": "/productbg/product1.png",
+        "left": "left-62.5",
+        "top": "top-46",
+        "width": "267px"
     }
 ]
