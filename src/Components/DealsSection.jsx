@@ -51,7 +51,7 @@ const DealsSection = () => {
         </div>
 
         {/* Scrollable Product Cards */}
-        <div className="flex-1 h-max overflow-x-auto">
+        <div className="flex-1 h-max overflow-x-auto no-scrollbar">
           <div className="flex gap-6 min-w-max pb-4">
             {products.map((item) => (
               <Product key={item.id} item={item} />
