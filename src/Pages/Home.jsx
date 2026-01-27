@@ -2,16 +2,36 @@ import React from 'react'
 import Hero from "../Components/Hero";
 import ProductList from "../Components/Products";
 import DealsSection from "../Components/DealsSection";
-
-
+import Testmonial from '../Components/Testmonial';
+import VideoSection from '../Components/VideoSection';
+import productData from './../Components/UI/utils/cardsProducts.json'
+import BestProducts from '../Components/UI/BestProducts';
 
 const Home = () => {
-  
+  const productsDetails = productData || [];
   return (
     <div>
-     <Hero />
-     <ProductList />
-        <DealsSection />
+      <Hero />
+      <ProductList />
+      <DealsSection />
+      
+      <h1 className='text-xl pl-15 py-7 font-medium'>Best Products</h1>
+      <div className="flex gap-6 w-full overflow-x-auto overflow-y-hidden no-scrollbarml-[66px] ml-15 h-auto no-scrollbar">
+        {productData?.map((items) => (
+          <BestProducts
+            key={items?.id}
+            heading={items?.title}
+            subheading={items?.description}
+            imageSrc={items?.sideImage}
+            left={items?.left}
+            top={items?.top}
+            width={items?.width}
+          />
+        ))}
+      </div>
+      <Testmonial />
+      <VideoSection />
+
     </div>
   )
 
