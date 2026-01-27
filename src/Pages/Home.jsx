@@ -14,9 +14,9 @@ const Home = () => {
       <Hero />
       <ProductList />
       <DealsSection />
-      
+
       <h1 className='text-xl pl-15 py-7 font-medium'>Best Products</h1>
-      <div className="flex gap-6 w-full overflow-x-auto overflow-y-hidden no-scrollbarml-[66px] ml-15 h-auto no-scrollbar">
+      <div className="flex gap-6 max-w-full overflow-x-auto overflow-y-hidden pl-[66px] no-scrollbar">
         {productData?.map((items) => (
           <BestProducts
             key={items?.id}
@@ -29,6 +29,7 @@ const Home = () => {
           />
         ))}
       </div>
+
       <Testmonial />
       <VideoSection />
 
