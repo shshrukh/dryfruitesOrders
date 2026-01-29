@@ -2,9 +2,11 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home";
 import ProductDetails from "./Pages/ProductDetails";
+import MinimalLayout from "./Components/layout/MiniLaout";
+import Customerdetails from './Pages/Customerdetails'
 
 
-const route = createBrowserRouter(
+export const route = createBrowserRouter(
     [
         {
             path: '/',
@@ -20,8 +22,18 @@ const route = createBrowserRouter(
                 }
             ]
             
+        },
+        {
+            path: '/',
+            element: <MinimalLayout/>,
+            children: [
+                {
+                    path: 'customer-details/',
+                    element: <Customerdetails/>
+                }
+            ]
         }
     ]
 )
 
-export default route
+

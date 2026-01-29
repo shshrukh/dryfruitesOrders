@@ -7,12 +7,16 @@ import { ChevronUp, ChevronDown } from "lucide-react";
 import imgFour from '../assets/ProductImages/shbackgound.png'
 import Testmonial from '../Components/Testmonial.jsx'
 import VideoSection from '../Components/VideoSection.jsx'
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+
 
 const ProductDetails = () => {
     const [quantity, setQuantity] = useState(1);
     const [address, setAddress] = useState('');
     const [open, setOpen] = useState(false);
-
+    const navigate = useNavigate();
 
     function handleIncrement() {
         setQuantity((prev) => {
@@ -28,7 +32,9 @@ const ProductDetails = () => {
     function handleAddress(e) {
         setAddress(e.target.value)
     }
-
+    function handleCustomerDetails() {
+        navigate('/customer-details/')
+    }
 
     return (
         <>
@@ -98,8 +104,8 @@ const ProductDetails = () => {
                             </div>
 
                             <div className="flex gap-4 mt-auto">
-                                <Button>Add to Cart</Button>
-                                <Button>Buy Now</Button>
+                                <Button >Add to Cart</Button>
+                                <Button onClick={handleCustomerDetails}>Buy Now</Button>
                             </div>
                         </div>
                     </div>
@@ -192,12 +198,9 @@ const ProductDetails = () => {
                 </div>
             </section>
             <section>
-                <Testmonial/>
-                <VideoSection/>
+                <Testmonial />
+                <VideoSection />
             </section>
-
-
-
         </>
 
 
