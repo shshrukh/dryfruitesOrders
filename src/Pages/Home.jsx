@@ -7,6 +7,7 @@ import VideoSection from '../Components/VideoSection';
 import productData from './../Components/UI/utils/cardsProducts.json'
 import BestProducts from '../Components/UI/BestProducts';
 
+
 const Home = () => {
   const productsDetails = productData || [];
   return (
