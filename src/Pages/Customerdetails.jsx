@@ -8,13 +8,12 @@ const CheckoutPage = () => {
     <div className="min-h-screen bg-white font-sans text-gray-800 overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
       {/* Main Flex Container */}
       <div
-        className="flex flex-col lg:flex-row mx-auto"
-        style={{ width: '1180px', height: '695px' }}
+        className="flex flex-col lg:flex-row mx-auto w-full max-w-[95vw] md:max-w-3xl lg:max-w-6xl xl:max-w-7xl min-h-[80vh]"
       >
         
         {/* Left Section: Form (Flex Grow) */}
-        <div className="flex-1 py-6 md:py-12 lg:pr-20">
-          <div className="max-w-xl ">
+        <div className="flex-1 py-6 md:py-12 lg:pr-20 px-4 sm:px-8">
+          <div className="max-w-xl w-full mx-auto">
             <h2 className="text-lg font-medium mb-4 text-[#272727]">Contact Information</h2>
             <input 
               type="email" 
@@ -62,7 +61,7 @@ const CheckoutPage = () => {
             </div>
 
             <div className="flex flex-col md:flex-row items-center justify-between mt-10 gap-6">
-              <label className="flex items-center text-sm text-gray-600 cursor-pointer">
+              <label className="flex items-center text-sm text-gray-600 cursor-pointer w-full md:w-auto">
                 <input type="checkbox" className="mr-2 accent-orange-500 h-4 w-4" defaultChecked />
                 Save This Information For Next Time
               </label>
@@ -74,13 +73,13 @@ const CheckoutPage = () => {
         </div>
 
         {/* Right Section: Summary (Fixed Width on Desktop) */}
-        <div className="w-full lg:w-[450px] bg-[#FDFDFD] py-6 p-12 md:py-12">
+        <div className="w-full sm:w-[90vw] md:w-[70vw] lg:w-112.5 bg-[#FDFDFD] py-6 px-4 sm:px-8 md:py-12 shrink-0 mx-auto mt-8 lg:mt-0 rounded-lg shadow-md">
           <h2 className="text-xl font-bold mb-8 text-[#272727]">Your Order</h2>
           
           <div className="flex flex-col gap-4 mb-8">
             {items.map((_, i) => (
               <div key={i} className="flex items-center gap-4 bg-white p-3 rounded-xl border border-gray-100 shadow-sm">
-                <div className="w-20 h-20 bg-orange-100 rounded-lg flex-shrink-0 overflow-hidden">
+                <div className="w-20 h-20 bg-orange-100 rounded-lg shrink-0 overflow-hidden">
                   <img src={dryfruit} alt="Product" className="w-full h-full object-cover" />
                 </div>
                 <div className="flex-1">
@@ -102,7 +101,7 @@ const CheckoutPage = () => {
             </div>
             <div className="flex justify-between items-center pt-4 border-t border-gray-200">
               <span className="text-lg font-medium">Total</span>
-              <span className="text-3xl font-bold text-gray-900">$42</span>
+              <span className="text-3xl text-gray-900">$42</span>
             </div>
           </div>
         </div>
