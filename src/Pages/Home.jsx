@@ -4,8 +4,8 @@ import ProductList from "../Components/Products";
 import DealsSection from "../Components/DealsSection";
 import Testmonial from '../Components/Testmonial';
 import VideoSection from '../Components/VideoSection';
-import productData from './../Components/UI/utils/cardsProducts.json'
-import BestProducts from '../Components/UI/BestProducts';
+import productData from '../Components/Ui/utils/cardsProducts.json'
+import BestProducts from '../Components/Ui/BestProducts';
 import Customerdetails from './customerdetails';
 
 

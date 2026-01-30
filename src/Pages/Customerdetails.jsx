@@ -1,7 +1,7 @@
 import React from 'react'
 import dryfruit from '../assets/dryfruitplate.png';
 
-const CheckoutPage = () => {
+const CustomerDetails = () => {
   const items = [1, 2, 3]; // Mocking the 3 dry food apple items
 
   return (
@@ -112,4 +112,4 @@ const CheckoutPage = () => {
   );
 };
 
-export default CheckoutPage;
+export default CustomerDetails;
