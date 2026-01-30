@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home";
 import ProductDetails from "./Pages/ProductDetails";
-import MinimalLayout from "./Components/Layout/MiniLaout";
-import Customerdetails from './Pages/Customerdetails'
+import MinimalLayout from "./Components/layout/MiniLaout";
+import CustomerDetails from './Pages/CustomerDetails';
 
 
 export const route = createBrowserRouter(
@@ -29,7 +29,7 @@ export const route = createBrowserRouter(
             children: [
                 {
                     path: 'customer-details/',
-                    element: <Customerdetails/>
+                    element: <CustomerDetails/>
                 }
             ]
         }
