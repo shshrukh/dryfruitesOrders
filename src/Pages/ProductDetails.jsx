@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
-<<<<<<< Updated upstream
-import Button from '../Components/Ui/Button'
-=======
 import Button from '../Components/Ui/Button.jsx'
->>>>>>> Stashed changes
 import imgOne from '../assets/ProductImages/productOne.png'
 import imgTwo from '../assets/ProductImages/productTwo.png'
 import imgThree from '../assets/ProductImages/productThree.png'
