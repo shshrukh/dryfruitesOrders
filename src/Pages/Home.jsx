@@ -9,6 +9,7 @@ import BestProducts from '../Components/Ui/BestProducts';
 import Customerdetails from './customerdetails';
 
 
+
 const Home = () => {
   const productsDetails = productData || [];
   return (
