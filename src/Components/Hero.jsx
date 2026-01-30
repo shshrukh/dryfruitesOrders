@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom";
 import Button from "./Ui/Button";
 
 const Hero = () => {
   return (
     <section className="w-full bg-white py-20 px-4 md:px-8 lg:px-16">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
 
         {/* LEFT CONTENT */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#272727] leading-tight">
+          <h1 className="text-[28px] md:text-5xl font-bold text-[#272727] leading-tight">
             Eat Healthy Every Day <br />
             Hunza Naturals
           </h1>

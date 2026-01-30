@@ -26,7 +26,7 @@ const Product = ({ item }) => {
           ${item.price}
         </span>
 
-        <button className="bg-orange-500 hover:bg-orange-600 text-white text-xs px-3 py-1 rounded">
+        <button className="bg-[#F59115] hover:bg-[#ff8d01] text-white text-[16px] px-3 py-1 rounded">
           View details
         </button>
       </div>

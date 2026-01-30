@@ -84,7 +84,7 @@ const Testmonial = () => {
 
               <div className="flex items-center gap-4">
                 <img
-                  src="/public/images/avaster.png"
+                  src="/public/images/avaster2.jpg"
                   alt=""
                   className="w-12 h-12 rounded-full object-cover"
                 />
