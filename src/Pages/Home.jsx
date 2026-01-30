@@ -4,10 +4,15 @@ import ProductList from "../Components/Products";
 import DealsSection from "../Components/DealsSection";
 import Testmonial from '../Components/Testmonial';
 import VideoSection from '../Components/VideoSection';
+<<<<<<< Updated upstream
 import Contact from '../Components/Contact';
 import productData from '../Components/Ui/utils/cardsProducts.json'
 import BestProducts from '../Components/Ui/BestProducts';
 import PaymentForm from '../Components/PaymentForm';
+=======
+import productData from './../Components/Ui/utils/cardsProducts.json'
+import BestProducts from '../Components/Ui/BestProducts';
+>>>>>>> Stashed changes
 
 const Home = () => {
   const productsDetails = productData || [];
