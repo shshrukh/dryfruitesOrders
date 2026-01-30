@@ -3,7 +3,7 @@ import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home";
 import ProductDetails from "./Pages/ProductDetails";
 import MinimalLayout from "./Components/layout/MiniLaout";
-import Customerdetails from './Pages/Customerdetails'
+import CustomerDetails from './Pages/CustomerDetails';
 
 
 export const route = createBrowserRouter(
@@ -29,7 +29,7 @@ export const route = createBrowserRouter(
             children: [
                 {
                     path: 'customer-details/',
-                    element: <Customerdetails/>
+                    element: <CustomerDetails/>
                 }
             ]
         }
