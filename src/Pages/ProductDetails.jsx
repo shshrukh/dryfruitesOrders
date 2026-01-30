@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Button from '../Components/UI/Button'
+import Button from '../Components/Ui/Button.jsx'
 import imgOne from '../assets/ProductImages/productOne.png'
 import imgTwo from '../assets/ProductImages/productTwo.png'
 import imgThree from '../assets/ProductImages/productThree.png'
