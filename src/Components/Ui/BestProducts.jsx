@@ -1,5 +1,5 @@
 import React from 'react'
-import bg from '../../assets/bgImage.png'
+import bg from '../../assets/bgimage.png'
 import overLay from '../../assets/almad.png'
 import Button from './Button'
 const BestProducts = ({ heading, subheading, imageSrc, left, top, width }) => {

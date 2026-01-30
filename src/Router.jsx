@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home";
 import ProductDetails from "./Pages/ProductDetails";
-import MinimalLayout from "./Components/layout/MiniLaout";
+import MinimalLayout from "./Components/Layout/MiniLaout";
 import Customerdetails from './Pages/Customerdetails'
 
 
