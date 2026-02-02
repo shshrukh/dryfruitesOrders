@@ -1,8 +1,15 @@
 import React from 'react';
-import  PaymentImg from "../assets/Payment.png";
+import  PaymentImg from "../assets/payment.png";
+import { useNavigate } from 'react-router-dom';
+              
 
 
 const Paysucessmodel = () => {
+
+  const navigate = useNavigate();
+  function handleBackToHome() {
+    navigate('/');
+  }
   const paymentDetails = [
     { label: "Payment Type", value: "Net Banking" },
     { label: "Bank Name", value: "HBL Bank" },
@@ -43,8 +50,8 @@ const Paysucessmodel = () => {
 
         {/* Action Button */}
         <button 
-          onClick={() => window.location.href = '/'}
           className="w-full bg-[#F59115] text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300 shadow-md active:scale-[0.98]"
+          onClick={handleBackToHome}
         >
           Back To Home
         </button>
