@@ -23,8 +23,14 @@ const VideoSection = () => {
           <video
             className="w-full h-full object-cover"
             controls
+            loop
             preload="metadata"
             poster="/images/video-poster.jpg" // optional
+            onEnded={(e) => {
+              // Fallback (some browsers/edge cases): ensure replay at end
+              e.currentTarget.currentTime = 0;
+              e.currentTarget.play();
+            }}
           >
             <source
               src="/videos/dryfruits-video.mp4"

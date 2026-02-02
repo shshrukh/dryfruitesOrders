@@ -2,8 +2,11 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home";
 import ProductDetails from "./Pages/ProductDetails";
-import MinimalLayout from "./Components/layout/MiniLaout";
-import CustomerDetails from './Pages/CustomerDetails';
+import MinimalLayout from "./Components/Layout/MiniLaout";
+import CustomerDetails from "./Pages/Customerdetails";
+import PaymentForm from "./Components/PaymentForm";
+import Paysucessmodel from "./Pages/Paysucessmodel";
+
 
 
 export const route = createBrowserRouter(
@@ -30,6 +33,14 @@ export const route = createBrowserRouter(
                 {
                     path: 'customer-details/',
                     element: <CustomerDetails/>
+                },
+                {
+                    path: 'payment-form/',
+                    element: <PaymentForm/>
+                },
+                {
+                    path: 'payment-success/',
+                    element: <Paysucessmodel/>
                 }
             ]
         }

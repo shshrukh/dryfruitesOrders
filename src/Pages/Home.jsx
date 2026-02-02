@@ -5,9 +5,8 @@ import DealsSection from "../Components/DealsSection";
 import Testmonial from '../Components/Testmonial';
 import VideoSection from '../Components/VideoSection';
 import productData from '../Components/Ui/utils/cardsProducts.json'
-import BestProducts from '../Components/Ui/BestProducts';
-
-
+import BestProducts from '../Components/Ui/BestProducts'
+import Contact from '../Components/Contact';
 
 
 
@@ -36,6 +35,7 @@ const Home = () => {
 
       <Testmonial />
       <VideoSection />
+      <Contact />
     
     </div>
   )

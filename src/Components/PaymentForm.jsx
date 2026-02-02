@@ -1,6 +1,13 @@
 import React from "react";
+import {useNavigate} from "react-router-dom";
+
 
 const PaymentForm = () => {
+  const navigate = useNavigate();
+  function handlePaymentSuccess() {
+
+    navigate('/payment-success');
+  }
  return (
    <div className="min-h-screen flex items-center justify-center bg-white">
 
@@ -9,7 +16,7 @@ const PaymentForm = () => {
 
        {/* Card Number */}
        <div className="mb-6">
-         <label className="block text-sm font-medium text-gray-700 mb-2">
+         <label className="block text-sm font-medium text-gray-700 mb-2"> 
            Card Number
          </label>
          <input
@@ -91,6 +98,7 @@ const PaymentForm = () => {
        <button
          className="w-full bg-[#F59115] hover:bg-[#e0800f] text-white
                     py-3 rounded-lg font-semibold transition"
+          onClick={handlePaymentSuccess}
        >
          Payment Now
        </button>
@@ -99,3 +107,4 @@ const PaymentForm = () => {
    </div>
  );
 };
+export default PaymentForm;
